@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -19,7 +20,7 @@ else
 }
 else
 {
-    cout<<"It is greater than 100000& all are will be positive";
+    cout<<"It is greater than 100000 Or It is less than zero";
 }
 
 
