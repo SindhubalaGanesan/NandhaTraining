@@ -15,7 +15,7 @@ int main()
 }
 else
 {
-    cout<<"It is negative";
+    cout<<"It is negative or It may be 0";
 }
 }
 else
