@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-class Even
+class Odd
 {
     private:
     int a,b,i;
@@ -26,7 +26,7 @@ class Even
 
 int main()
 {
- Even e;
- e.get();
+ Odd o;
+ o.get();
   
 }
