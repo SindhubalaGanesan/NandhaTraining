@@ -5,7 +5,7 @@ using namespace std;
 class Print5
 {
     private:
-    int n,i,a[10000];
+    int n,i,a[5];
     public:
     void get()
     {
