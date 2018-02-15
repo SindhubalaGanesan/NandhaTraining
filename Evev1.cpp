@@ -16,7 +16,7 @@ class Even
            
             if(a%2==0)
             {
-                cout<<a;
+                cout<<a<<"\t";;
             }
              a=a+1;
         }
