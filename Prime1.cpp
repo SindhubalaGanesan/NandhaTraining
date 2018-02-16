@@ -25,7 +25,7 @@ class Prime
                     
                 }
             }
-            if(count==0)
+            if(count==0&&i!=1)
             
                 cout<<"The output is"<<i<<"\t";
             
