@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
- class Largest
+ class Smallest
  {
  private:
  int i,a,b[100],small;
@@ -29,7 +29,7 @@ using namespace std;
 
 int main()
 {
-    Largest l;
+    Smallest l;
     l.get();
     return 0;
 }
