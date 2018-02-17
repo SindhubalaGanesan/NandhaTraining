@@ -22,7 +22,7 @@ using namespace std;
              small=b[i];
          }
      }
-     cout<<small;
+     cout<<"The minimum number"<<small<<endl;
  }
  };
  
