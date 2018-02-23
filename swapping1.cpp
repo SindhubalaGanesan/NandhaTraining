@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 using namespace std;
@@ -8,17 +7,22 @@ class Swap
     int a,b;
     public:
     void display()
-    {
+    {    int temp;
         cout<<"Enter the number:"<<endl;
         cin>>a>>b;
-        cout<<"Before swapping:"<<endl;
-        cout<<"a="<<a<<"b="<<b<<endl;
-        int temp;
+      
+        if(a<100000&&b<100000)
+        {
         temp=a;
         a=b;
         b=temp;
         cout<<"After swapping:"<<endl;
          cout<<"a="<<a<<"b="<<b<<endl;
+        }
+        else
+        {
+            cout<<"Enter the input upto 100000"<<endl;
+        }
     }
 };
 
