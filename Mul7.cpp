@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-class Add
+class Mul7
 {
   private:
   int a;
@@ -24,8 +24,8 @@ class Add
 
 int main()
 {
-    Add a;
-    a.display();
+    Mul7 m;
+    m.display();
 
     return 0;
 }
