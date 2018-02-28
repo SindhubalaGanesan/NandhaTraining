@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int i;
+int a;
 clrscr();
 printf("Enter your choice");
-scanf("%d",&i);
-if(i<=10)
+scanf("%d",&a);
+if(a<=10)
 {
-switch(i)
+switch(a)
 {
 case 1:
 printf("One");
