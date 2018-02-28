@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i;
+clrscr();
+printf("Enter your choice");
+scanf("%d",&i);
+if(i<=10)
+{
+switch(i)
+{
+case 1:
+printf("One");
+break;
+case 2:
+printf("Two");
+break;
+case 3:
+printf("Three");
+break;
+case 4:
+printf("Four");
+break;
+case 5:
+printf("Five");
+break;
+case 6:
+printf("Six");
+break;
+case 7:
+printf("Seven");
+break;
+case 8:
+printf("Eight");
+break;
+case 9:
+printf("Nine");
+break;
+case 10:
+printf("Ten");
+break;
+}
+}
+else
+{
+printf("Enter the input upto 10);
+}
+getch();
+}
