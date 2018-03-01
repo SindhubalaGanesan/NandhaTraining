@@ -8,7 +8,7 @@ printf("Enter the number");
 scanf("%d",&n);
 printf("Enter the interval");
 scanf("%d%d",&a,&b);
-for(i=a;i<=b;i++)
+for(i=a+1;i<=b-1;i++)
 {
 if(n==i)
 {
