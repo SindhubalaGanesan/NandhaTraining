@@ -4,7 +4,7 @@
 void main()
 {
 char a[1000];
-int i,n,c,count=0;
+int i,n,count=0;
 clrscr();
 printf("Enter the string\n");
 gets(a);
