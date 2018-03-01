@@ -11,7 +11,7 @@ gets(a);
 n=strlen(a);
 for(i=0;i<n;i++)
 {
-if(a[i]=='.')
+if(a[i]==' ')
 {
 count++;
 }
