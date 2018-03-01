@@ -4,11 +4,11 @@
 void main()
 {
 char a[1000];
-int i,n,c,count=0,d;
+int i,s,count=0,d;
 clrscr();
 printf("Enter the string\n");
 gets(a);
-n=strlen(a);
+s=strlen(a);
 for(i=0;i<n;i++)
 {
 if(a[i]=='.')
