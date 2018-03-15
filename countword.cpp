@@ -1,4 +1,4 @@
-#include <iostream>
+=#include <iostream>
 #include<string.h>
 using namespace std;
 class Count
@@ -14,7 +14,7 @@ class Count
   s=strlen(a);
   for(i=0;i<s;i++)
   {
-      if(a[i]=' ')
+      if(a[i]==' ')
       {
           count++;
       }
