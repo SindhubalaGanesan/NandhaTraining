@@ -10,6 +10,8 @@ class Fact
         cout<<"Enter the number"<<endl;
         cin>>n;
         cout<<"The answer is:"<<endl;
+        if(n<1000)
+        {
         for(i=1;i<=n;i++)
         {
             if(n%i==0)
@@ -17,6 +19,12 @@ class Fact
                 cout<<i<<"\t";
             }
         }
+        }
+        else
+        {
+            cout<<"Enter only less than 1000"<<endl;
+        }
+        
     }
 };
 int main()
