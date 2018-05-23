@@ -17,7 +17,7 @@ class Example
       {
           if(s[i]==a)
           {
-              cout<<i;
+              cout<<i+1;
               break;
           }
       }
