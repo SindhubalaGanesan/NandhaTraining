@@ -10,12 +10,20 @@ class Example
   {
       cout<<"enter the number:"<<endl;
       cin>>n;
+      if(n<=25)
+      {
       for(i=1;i<=n;i++)
       {
           f=f*i;
       }
-          
       cout<<f;
+      }
+      else
+      {
+          cout<<"only enter less than 25"<<endl;
+      }
+          
+      
   }
        
 };
