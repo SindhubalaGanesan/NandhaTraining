@@ -4,7 +4,7 @@ using namespace std;
 class Example
 {
   private:
- int n,i,flag;
+ int n,i,sum=0;
  public:
  void display()
  {
@@ -19,10 +19,11 @@ class Example
      {
          if(a[i]<=0)
          {
-             cout<<a[i]<<"\t";
+            sum=sum+a[i];
          }
         
      }
+     cout<<sum;
      
  }
 };
