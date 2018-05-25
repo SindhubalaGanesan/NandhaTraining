@@ -13,7 +13,7 @@ class Example
         cout<<"enter the string:"<<endl;
         cin>>s;
         a=s.length();
-        if(a<100000)
+        if(a<10000000)
         {
         for(i=0;i<a;i++)
         {
@@ -44,7 +44,7 @@ class Example
         }
         else
         {
-            cout<<"only enter less than 100000 character";
+            cout<<"only enter less than 10000000 character";
         }
     }
 };
